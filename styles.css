@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(71, 85, 122);
+    font-family: 'Poppins';
+    color: white;
+}
+
+.background {
+    background-color: #4a5989;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 40vh;
+    width: 20vw;
+    left: 50%;
+    top: 50%;
+    outline: solid 0.2vw #262c40;
+    border-radius: 0.3vw;
+    box-shadow: 0 0 0.8vw black;
+}
+
+#nickname {
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 66%;
+    top: 55%;
+    width: 14vw;
+}
+
+.miga {
+    font-size: 1.25vw;
+    color: #9971c1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 66%;
+    top: 50%;
+    width: 9.5vw;
+    cursor: pointer;
+}
+
+.miga:hover {
+    text-shadow: 0 0 0.9vw rgb(255, 255, 255);
+}
+
+#avatar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    width: 8vw;
+    height: 8vw;
+    box-shadow: 0 0 1vw black,
+    inset 0 0 0.3vw black;
+    border-radius: 50%;
+    background-image: url(img/nehupro.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    background-color: #31415b;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    width: 10.5vw;
+    height: 2.5vw;
+    border-radius: 0.6vw;
+    outline: solid 0.2vw #262c40;
+    box-shadow: 0 0 0.9vw black;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    transition: ease-in-out 0.5s;
+    margin-top: 7vh;
+    
+}
+
+.button:hover {
+    outline: 0.2vw solid rgba(0, 0, 0, 0.123);
+    box-shadow: 0 0 1.25vw #000000,
+    inset 0 0 0.5vw #4a7acc;
+    transform: translate(-48%, -64%);
+    text-shadow: 0 0 0.4vw white;
+}
+
+.miga2 {
+    padding-left: 0.10vw;
+}
+
+
+
+
+.back2 {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #4a5989;
+    top: 50%;
+    left: 50%;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 0.60vw;
+    box-shadow: 0 0 4vw #414e6e;
+    outline: 0.2vw solid #262c40;
+    box-shadow: 0 0 0.8vw black;
+}
+
+#back-about {
+    font-size: 1.5vw;
+    font-family: 'Poppins';
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 7%;
+    left: 15%;
+    height: 2.5vw;
+    width: 12vw;
+}
+
+#back-text {
+    position: absolute;
+    font-family: 'Poppins';
+    transform: translate(-50%, -50%);
+    top: 300%;
+    left: 160%;
+    color: #ffffff;
+    width: 35vw;
+}
+
+#back-text2 {
+    position: absolute;
+    font-family: 'Poppins';
+    transform: translate(-50%, -50%);
+    top: 600%;
+    left: 160%;
+    color: #ffffff;
+    width: 35vw;
+}
+
+.back-icon {
+    color: white;
+    text-shadow: 0 0 0.5vw white;
+    position: absolute;
+    left: 37vw;
+    /* height: 50vh;
+    width: 30vw; */
+    top: 0vw;
+    cursor: pointer;
+}
+
+.back-icon:hover {
+    text-shadow: 0 0 1vw #2d8fdf;
+}
+
+.text-portfolio {
+    color: #9971c1;
+    text-shadow: 0 0 0.3vw #9971c1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 200%;
+    top: 850%;
+    cursor: pointer;
+    width: 20vw;
+    height: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-portfolio:hover {
+    text-shadow: 0 0 0.5vw rgb(211, 24, 170);
+}
+
+
+.music-stop {
+    color: white;
+    font-size: 1.75vw;
+    text-shadow: 0 0 0.3vw white;
+    position: absolute;
+    top: 40vw;
+    left: 49vw;
+    cursor: pointer;
+}
+  
+#button {
+    /* cursor: pointer; 
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size:1vw; 
+    color:rgb(254, 254, 255);
+    padding: 13px 6px;
+    position: absolute;
+    top: 39vw;
+    left: 47.5vw;
+    width: 5vw; */
+    /* border-radius: 0.25vw; */
+    /* box-shadow: 0 0 0.6vw #31415b;
+    outline: 0.2vw solid #262c40; */
+    color: white;
+    font-size: 1.75vw;
+    text-shadow: 0 0 0.3vw white;
+    position: absolute;
+    top: 40vw;
+    left: 49vw;
+    cursor: pointer;
+  }
